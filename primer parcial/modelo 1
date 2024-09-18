@@ -1,1 +1,32 @@
+1. En un circuito informático, cómo se llama el vinculo que hay entre dos equipos ETCD?
+Se llama línea de comunicaciones.
 
+2. ¿Cuáles son los fenómenos que deforman la información?
+Los fenómenos que deforman la información son el ruido, la atenuación, la distorsión, y los retardos de transmisión. 
+Otros fenómenos tambien podrían ser el ancho de banda insuficiente y la tasa de información mayor que la capacidad del canal.
+
+3. Que es la velocidad de modulación?
+La velocidad de modulación es el número máximo de cambios por segundo que puede hacer una señal que transporta datos.
+Tambian se define como:
+- La inversa de la medida del intervalo de tiempo nominal más corto entre dos instantes significativos sucesivos de la señal modulada.
+- La inversa del tiempo que dura el elemento más corto de la señal que se utiliza para crear un bite.
+Se mide en baudios y se calcula --> Vm = número de cambios/tiempo En unidades resulta --> [Vm] = 1/[seg] = [baudio]
+Se relaciona con la línea de transmisión.
+Si los pulsos de la señal duraran todos igual, la velocidad resultaría igual al número de dichos pulsos por seg, o si se quiere, al máximo número de transiciones de estados del canal por seg.
+
+4. Describir y graficar la codificación HDB3. Emplear la siguiente secuencia: 1001000001100001110000000001000011
+Es un código bipolar NRZ que utiliza tres niveles para representar la formación binaria: el 0 con polaridad [0], y el 1 con polaridad alternada [+] y [-].
+No posee ni componente de continua ni bajas frecuencias, pero su inconveniente es que cuando aparece una larga secuencia de ceros se pierde la posibilidad de recuperar la señal de reloj.
+- Para limitarlas se efectuan violaciones a la polaridad, permitiendo un máximo de 3 bits ceros consecutivos e insertando como cuarto bit un uno (denominado bit de violación).
+
+5. Describir los aspectos que estudia la teoría de la información
+6. ¿Cuál es la banda de 400 Mts? Nombre y uso comercial
+7. Mediante el análisis de Fourier determinar y graficar la cantidad de armónicas y Cmax de una señal que tiene las siguientes características: 
+FRP = 100
+pps Vm = 2000 
+baudios A = 1V
+8. Calcular el rendimiento de una transmisión sincrónica cuyo bloque de datos
+es de 1500 bytes, una cabecera de 14 bytes y una cola de 4 bytes
+9. Calcular la cantidad de información y la información promedio de mensajes
+con la siguiente probabilidad de ocurrencia:
+P1 = 10% P2 = 20% P3 = 70%
