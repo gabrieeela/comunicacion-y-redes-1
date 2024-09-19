@@ -1,0 +1,17 @@
+1. En un circuito informático, cómo se llama el vínculo que hay entre dos equipos ETCD?
+Línea de comunicaciones
+
+2. Cuáles son las características de un amplificador? 
+Un amplificador aumenta la energía de la señal de entrada a través de algún tipo de circuito electrónico, y tiene en la salida un nivel de amplitud de la señal mucho mayor que el de la entrada. 
+Las señales que llegan a él están atenuadas respecto de su amplitud original, y las que salen de él tienen un nivel conveniente para que puedan ser detectadas e interpretadas correctamente en el colector. 
+El ruido que acompaña a la señal analógica es amplificado (aunque esto es imposible de evitar), ya que tiene su propio ruido interno que se suma la señal que debe amplificar.
+
+3. Qué es la tasa de errores? 
+La tasa de errores sobre un equipo terminal de datos que actúa como sumidero es la relación entre los bits recibidos de forma errónea respecto de la cantidad total de bits transmitidos. 
+Se expresa mediante la sigla BER (Bit Error Rate), y siempre se expresa como una potencia de 10 elevada a un número negativo.
+
+4. Describir y graficar la codificación Manchester Bifase Diferencial. 
+El código Manchester Diferencial BIFASE se caracteriza porque para la transmisión de un 0 se efectúa una transición al comienzo y a la mitad del intervalo significativo 
+(Para el envío de un 1 no se efectúa ninguna transición al comienzo del intervalo, pero si a la mitad). 
+Se denomina BIFASE porque la señal en la línea toma valores distintos de 0. 
+Tiene la ventaja de que no es necesario identificar la polaridad de transmisión para cada intervalo significativo.
