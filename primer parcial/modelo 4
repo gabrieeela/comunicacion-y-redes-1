@@ -13,3 +13,8 @@ La codificación Manchester es aquella en la que no se utiliza la diferencia de 
 - El bit 1 se representa por una transición positiva en la mitad del intervalo significativo
 - El bit 0 se representa con una transición negativa en la misma ubicación. 
 Su ventaja es que si se puede eliminar la componente de continua de la señal si se toman valores de tensión positivos y negativos para representar los niveles de la señal.
+
+5. Qué es la tasa de información y cómo se mide?
+La tasa de información es el cociente entre la entropía de la fuente y la duración media de los simbolos que esta envía.
+Se mide en Shannon por segundo.
+- Si la fuente fuese digital de elementos binarios equiprobables, la cantidad de información en Shannon coincidiría con un bit. Entonces se podría expresar en bps.
