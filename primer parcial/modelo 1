@@ -20,6 +20,12 @@ No posee ni componente de continua ni bajas frecuencias, pero su inconveniente e
 - Para limitarlas se efectuan violaciones a la polaridad, permitiendo un máximo de 3 bits ceros consecutivos e insertando como cuarto bit un uno (denominado bit de violación).
 
 5. Describir los aspectos que estudia la teoría de la información
+La teoría de la información es una ciencia desarrollada por Shannon, donde planteaba como hacer lo más eficientemente posible la transmisión de dos puntos de una red de comunicaciones.
+Los aspectos que estudia son:
+- Cómo se mide la información
+- Cuál es la capacidad de un canal de comunicaciones para transferir información
+- La manera de utilizar los canales a plena capacidad con una tasa de error mínima
+
 6. ¿Cuál es la banda de 400 Mts? Nombre y uso comercial
 7. Mediante el análisis de Fourier determinar y graficar la cantidad de armónicas y Cmax de una señal que tiene las siguientes características: 
 FRP = 100
