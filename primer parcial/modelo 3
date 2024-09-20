@@ -15,3 +15,7 @@ El código Manchester Diferencial BIFASE se caracteriza porque para la transmisi
 (Para el envío de un 1 no se efectúa ninguna transición al comienzo del intervalo, pero si a la mitad). 
 Se denomina BIFASE porque la señal en la línea toma valores distintos de 0. 
 Tiene la ventaja de que no es necesario identificar la polaridad de transmisión para cada intervalo significativo.
+
+5. Qué es la entropía y cómo se mide
+La entropía es aquella que representa la incertidumbre media en la posibilidad de que se produzca cada simbolo.
+Se mide en H = Shannon/simbolo
