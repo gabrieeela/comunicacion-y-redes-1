@@ -2,11 +2,16 @@
 Se llama Enlace de datos
 
 2. Cuáles son las características de un repetidor regenerativo? 
-Un repetidor regenerativo obtiene la señal de entrada (deformada) para tratar de volverla a generar bien cuadrada (es decir, en su forma original y sin ninguna señal de ruido), 
-y mantiene inalterada la forma de las señales hasta llegar al sumidero (cada vez que regenera un pulso, el ruido que llevaba la señal se elimina ya que los pulsos de salida tienen la misma forma que los emitidos por la fuente)
+Un repetidor regenerativo obtiene la señal de entrada (deformada) para tratar de volverla a generar bien cuadrada (es decir, en su forma original y sin ninguna señal de ruido). 
+Mantiene de forma inalterada la forma de las señales hasta llegar al sumidero. 
+- Cada vez que regenera un pulso, el ruido que llevaba la señal se elimina ya que los pulsos de salida tienen la misma forma que los emitidos por la fuente.
 
 3. Qué es la longitud de onda? 
-La longitud de onda es la distancia en la que la onda recorre un tiempo igual a un periodo
+La longitud de onda es la distancia en la que la onda recorre un tiempo igual a un periodo.
+A medida que aumenta la frecuencia de una señal, menor será su longitud de onda; en la práctica, las velocidades de propagación en elvacío y en el aire son valores muy próximos.
+- Para calcular la longitud de onda, se suele aproximar tomando el valor aproximado de 300.000.000 m. seg. --> C = 3 * 10^8 m/s
+Es un valor que tiene muchisima importancia práctica porque la dimensión de las antenas de radio guarda relación con este valor.
+Tambien indica la forma en que las señales se propagan y por lo tanto el alcance de una emisión (ya conocida su potencia).
 
 4. Describir y graficar la codificación Manchester 
 La codificación Manchester es aquella en la que no se utiliza la diferencia de valor de los niveles para representar los bits, sino que emplea transiciones (fases positivas y negativas de los pulsos). 
@@ -18,3 +23,4 @@ Su ventaja es que si se puede eliminar la componente de continua de la señal si
 La tasa de información es el cociente entre la entropía de la fuente y la duración media de los simbolos que esta envía.
 Se mide en Shannon por segundo.
 - Si la fuente fuese digital de elementos binarios equiprobables, la cantidad de información en Shannon coincidiría con un bit. Entonces se podría expresar en bps.
+La descripción de la fuente depende de esta.
