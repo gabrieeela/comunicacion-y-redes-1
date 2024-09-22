@@ -5,16 +5,23 @@ Se llama circuito de datos.
 Las causas de errores en una transmisión de datos son
 
 3. Qué es la velocidad de transmisión multinivel?
-La velocidad de transmisión multinivel es cuando cada pulso transmitido puede contener más de un bit de información, 
-ya que significa que puedo aumentar la velocidad de información sin incrementar la velocidad de modulación.
+La velocidad de transmisión multinivel es cuando cada pulso transmitido puede contener más de un bit de información. 
+Significa que puedo aumentar la velocidad de información sin incrementar la velocidad de modulación.
+En teoría n puede tener caulquier valor pero en la práctica debe responder a la formula --> n = 2^M 
+- Si M = 2 --> n = 4 ya que puedo asociar todas las combinaciones de digitos binarios tomados de 2 en 2
+- Si M = 3 se puede hacer con 3 y así sucesivamente de forma analóga.
+- En cada caso los pulsos transmiten más de un bit (dibit, tribit, etc)
 
 4. Describir y graficar el código MILLER 
 El código Miller permite reducir considerablemente la contribución de las bajas frecuencias garantizando un número mínimo de transiciones de la señal banda base como para recuperar la señal de reloj. 
-Por lo menos habrá una transición cada dos intervalos significativos (Para el 1 emplea una transición en la mitad del intervalo significativo mientras que para el 0 existe una transición al final del intervalo si el bit siguiente es 0, caso contrario no habrá transición alguna). 
+Por lo menos habrá una transición cada dos intervalos significativos 
+- Para el 1 emplea una transición en la mitad del intervalo significativo.
+- Para el 0 existe una transición al final del intervalo si el bit siguiente es 0, caso contrario no habrá transición alguna. 
 Su ventaja es concentrar la potencia de la señal en un ancho de banda mucho menor con lo cual disminuye requerir ancho de banda en el canal de transmisión. 
 Su implementación es más sencilla que el código Manchester.
 
 5. Cómo se mide la cantidad de información? 
+La unidad más habitual es el Shannon.
 La cantidad de información se mide en base a la elección de la base del logaritmo que interviene la definición de esta. 
 - Si es en base 2 se mide en Shannon. 
 - Si es decimal se mide en Hartley. 
