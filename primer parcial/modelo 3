@@ -5,10 +5,14 @@ Línea de comunicaciones
 Un amplificador aumenta la energía de la señal de entrada a través de algún tipo de circuito electrónico, y tiene en la salida un nivel de amplitud de la señal mucho mayor que el de la entrada. 
 Las señales que llegan a él están atenuadas respecto de su amplitud original, y las que salen de él tienen un nivel conveniente para que puedan ser detectadas e interpretadas correctamente en el colector. 
 El ruido que acompaña a la señal analógica es amplificado (aunque esto es imposible de evitar), ya que tiene su propio ruido interno que se suma la señal que debe amplificar.
+Se caracteriza por un valor denominado ganancia, el cual está relacionado con la potencia de la señal.
 
 3. Qué es la tasa de errores? 
 La tasa de errores sobre un equipo terminal de datos que actúa como sumidero es la relación entre los bits recibidos de forma errónea respecto de la cantidad total de bits transmitidos. 
+Se relaciona con la cantidad de bits transmitidos de forma erronea en una sesión de transmisión de datos, la cual puede efectuarse por medios analógicos o dígitales.
+- La tasa de errores siempre está referida a la recepción en forma dígital de los datos en el sumidero.
 Se expresa mediante la sigla BER (Bit Error Rate), y siempre se expresa como una potencia de 10 elevada a un número negativo.
+BER = cant. de bits con errores / cant. de bits transmitidos
 
 4. Describir y graficar la codificación Manchester Bifase Diferencial. 
 El código Manchester Diferencial BIFASE se caracteriza porque para la transmisión de un 0 se efectúa una transición al comienzo y a la mitad del intervalo significativo 
