@@ -2,15 +2,17 @@
 Se llama línea de comunicaciones.
 
 2. ¿Cuáles son los fenómenos que deforman la información?
-Los fenómenos que deforman la información son el ruido, la atenuación, la distorsión, y los retardos de transmisión. 
-Otros fenómenos tambien podrían ser el ancho de banda insuficiente y la tasa de información mayor que la capacidad del canal.
+Los fenómenos que deforman la información son
 
 3. Que es la velocidad de modulación?
 La velocidad de modulación es el número máximo de cambios por segundo que puede hacer una señal que transporta datos.
 Tambian se define como:
 - La inversa de la medida del intervalo de tiempo nominal más corto entre dos instantes significativos sucesivos de la señal modulada.
 - La inversa del tiempo que dura el elemento más corto de la señal que se utiliza para crear un bite.
-Se mide en baudios y se calcula --> Vm = número de cambios/tiempo En unidades resulta --> [Vm] = 1/[seg] = [baudio]
+Se mide en baudios y se calcula --> Vm = número de cambios/tiempo
+- Más simplificado resulta --> Vm = 1/T
+- En unidades resulta --> [Vm] = 1/[seg] = [baudio]
+Cada estado de la señal se lo denomina símbolo.
 Se relaciona con la línea de transmisión.
 Si los pulsos de la señal duraran todos igual, la velocidad resultaría igual al número de dichos pulsos por seg, o si se quiere, al máximo número de transiciones de estados del canal por seg.
 
@@ -18,13 +20,20 @@ Si los pulsos de la señal duraran todos igual, la velocidad resultaría igual a
 Es un código bipolar NRZ que utiliza tres niveles para representar la formación binaria: el 0 con polaridad [0], y el 1 con polaridad alternada [+] y [-].
 No posee ni componente de continua ni bajas frecuencias, pero su inconveniente es que cuando aparece una larga secuencia de ceros se pierde la posibilidad de recuperar la señal de reloj.
 - Para limitarlas se efectuan violaciones a la polaridad, permitiendo un máximo de 3 bits ceros consecutivos e insertando como cuarto bit un uno (denominado bit de violación).
+Se emplea especialmente en transmisiones en las que se usa cable de cobre dado que permite disminuir el corrimiento de fase de la señal digital.
+Para decidir que secuencia emplear se debe contar la cantidad de unos que hay entre la última violación y la actual.
+- Par --> [R00V]
+- Impar --> [000V]
+El pulso de violación de la serie SIEMPRE lleva la misma polaridad que el último bit 1 transmitido.
+Los pulsos de violación se transmiten con polaridad alternada entre sí.
 
 5. Describir los aspectos que estudia la teoría de la información
 La teoría de la información es una ciencia desarrollada por Shannon, donde planteaba como hacer lo más eficientemente posible la transmisión de dos puntos de una red de comunicaciones.
 Los aspectos que estudia son:
-- Cómo se mide la información
-- Cuál es la capacidad de un canal de comunicaciones para transferir información
-- La manera de utilizar los canales a plena capacidad con una tasa de error mínima
+- Cómo se mide la información: La elección de la base del logaritmo que interviene en la definición de la cantidad de información implica determinar la unidad con la que se medirá ese parámetro.
+- Cuál es la capacidad de un canal de comunicaciones para transferir información: La capacidad del canal es la máxima velocidad de transmisión de datos que se pueden cursar por él casi libre de errores.
+- La manera de utilizar los canales a plena capacidad con una tasa de error mínima: La relación entre la tasa de información y la capacidad del canal queda establecida sobre la base de la tasa de errores del sist,
+es decir, si la tasa de información es mayor que la capacidad del canal no es posible transmitir sin errores.
 
 6. ¿Cuál es la banda de 400 Mts? Nombre y uso comercial
 7. Mediante el análisis de Fourier determinar y graficar la cantidad de armónicas y Cmax de una señal que tiene las siguientes características: 
